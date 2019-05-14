@@ -66,6 +66,8 @@ If running as part of SLiMSuite, `$CODEPATH` will be the SLiMSuite `tools/` dire
 The basic SAMPhaser run command needs a genome sequence (`seqin=FASFILE`) and pileup file (`pileup=FILE`):
 
     python $CODEPATH/samphaser.py -seqin <genome.fasta> -pileup <genome.pileup>
+    
+To generate graphics, SAMPhaser also needs `R` installed on the system.
 
 ## Documentation
 
