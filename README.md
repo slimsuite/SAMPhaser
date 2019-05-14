@@ -18,6 +18,8 @@ likely to be errors. In particular, mononucleotide repeats could have indels tha
 
 ### SAMPhaser overview
 
+Please see [SAMPhaser.md](./SAMPhaser.md) for details of the SAMPhaser algorithm.
+
 SAMPhaser first identifies variants from a pileup file generated using [SAMtools](https://github.com/samtools/samtools)
 from a BAM file of mapped long reads. SNPs and indels are called for all positions where the minor allele is
 supported by at least 10% of the reads (`mincut=X`), with an absolute minimum of two reads (`absmincut=X`).
